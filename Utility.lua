@@ -25,7 +25,7 @@ function Module:Discord(code)
     end)
 end
 
-Module.HubName = "Qyrix"
+Module.HubName = "For testing purposes"
 Module.Loader = false
 
 Module.Library = loadstring(game:HttpGetAsync("https://rawscripts.net/raw/Universal-Script-woof-gui-16777"))
@@ -73,5 +73,6 @@ function Module:TapSimulatorRemoteBypass()
 
   return EventsFolder, FunctionsFolder, Remotes
 end
+
 
 return Module
